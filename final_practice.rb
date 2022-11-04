@@ -1,73 +1,70 @@
-# Defining Our Own Methods
-# 1: Write a method named greeting that prints out a general greeting to someone
+# # Defining Our Own Methods
+# # 1: Write a method named greeting that prints out a general greeting to someone
 
-def greeting
-    return "hello, someone"
-end
-p greeting
-
-
-# What is the return value of your method?
-
-# "hello, someone"
-
-# How many arguments did you pass your method?
-
-# not a one 
+# def greeting
+#     return "hello, someone"
+# end
+# p greeting
 
 
-#2: Write a method named custom_greeting that prints out a greeting WITH a specific name.
+# # What is the return value of your method?
 
-def custom_greeting(name)
-    "Whats up, #{name}"
-end
-p custom_greeting("james")
+# # "hello, someone"
 
-# What is the return value of your method?
+# # How many arguments did you pass your method?
 
-# "whats up, James"
+# # not a one 
 
-# How many arguments did you pass your method?
 
-# one
+# #2: Write a method named custom_greeting that prints out a greeting WITH a specific name.
 
-# What data type was your argument(s)?
+# def custom_greeting(name)
+#     "Whats up, #{name}"
+# end
+# p custom_greeting("james")
 
-# string
+# # What is the return value of your method?
 
-#3: Write a method named square that takes in one number, and returns the square of that number
+# # "whats up, James"
 
-def square(num)
-    num ** 2
-end
-print square(4)
+# # How many arguments did you pass your method?
 
-# What is the return value of your method?
+# # one
 
-# 16
+# # What data type was your argument(s)?
 
-# How many arguments did you pass your method?
+# # string
 
-# one
+# #3: Write a method named square that takes in one number, and returns the square of that number
 
-# What data type was your argument(s)?
+# def square(num)
+#     num ** 2
+# end
+# print square(4)
 
-# intager 
+# # What is the return value of your method?
 
-#4: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and print outs the sentence of the entire string
+# # 16
+
+# # How many arguments did you pass your method?
+
+# # one
+
+# # What data type was your argument(s)?
+
+# # intager 
+
+# #4: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and print outs the sentence of the entire string
 
 
 
 def greet_person(first_name, middle_name, last_name)
-   p "whats up, #{first_name + " " + middle_name + " " + last_name}!"
+   p "whats up, #{first_name} #{middle_name} #{last_name}!"
 end
 
-# first_name = "Billy"
-# middle_name = "Bob"
-# last_names = "joe"
-
-greet_person("Billy","Bob" "Joe")
-
+greet_person("Billy","Bob","Joe")
+greet_person("jeff","bob","nick")
+ 
 # What is the return value of your method?
 # How many arguments did you pass your method?
 # What data type was your argument(s)?
